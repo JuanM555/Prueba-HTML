@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 10px;
+  background-color: #003d81;
+  border-radius: 10px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(255, 255, 255);
+}
+
+h1 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  color: rgb(255, 255, 255);
+  margin: 5px auto;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+input,
+textarea,
+select,
+button,
+.btn {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+.btn {
+  background-color: rgb(236, 0, 225);
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background-color: blueviolet;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+input[type="submit"] {
+  background-color: rgb(236, 0, 225);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: blueviolet;
+}

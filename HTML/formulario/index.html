@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+    <link rel="stylesheet" href="/assets/CSS/forms.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Formulario de contacto</h1>
+      <form action="">
+        <label for="nombre">Nombre:</label>
+        <input
+          type="text"
+          name="nombre"
+          id="nombre"
+          required
+          placeholder="Ingrese su nombre de usurio" />
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          required
+          placeholder="Ingrese su correo electronico" />
+        <label for="telefono">Telefono:</label>
+        <input
+          type="tel"
+          name="telefono"
+          id="telefono"
+          placeholder="Ingrese numero de telefono" />
+        <label for="mensaje">Mensaje:</label>
+        <textarea
+          name="mensaje"
+          id="mensaje"
+          rows="4"
+          placeholder="Ingrese el mensaje"
+          style="resize: none"></textarea>
+
+        <label for="pais">Pais:</label>
+        <select name="pais" id="pais">
+          <option value="" disabled selected>Selecciona tu país</option>
+          <option value="Argentina">Argentina</option>
+          <option value="Brasil">Brasil</option>
+          <option value="Colombia">Colombia</option>
+          <option value="Mexico">Mexico</option>
+          <option value="Venezuela">Venezuela</option>
+        </select>
+        <input type="submit" name="enviar" id="enviar" value="Enviar" />
+        <div class="btn">
+          <a href="../index.html"> Volver a mi pagina principal</a>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
